@@ -20,6 +20,28 @@ Dhani-Belajar-Github/          <- ini repository
     └── halo.py                <- contoh code
 ```
 
+### Halaman "Create a new repository" (github.com/new)
+
+Saat membuat repo ini, semua pilihan dibiarkan bawaan (default). Ini arti
+setiap pilihannya:
+
+| Pilihan | Artinya | Pilihan saat repo ini dibuat |
+|---------|---------|------------------------------|
+| **Owner / Repository name** | Pemilik dan nama repo. Jadi alamatnya `github.com/DhaniSaputraPro/<nama>` | `Dhani-Belajar-Github` |
+| **Description** | Kalimat pendek yang tampil di halaman repo (boleh kosong) | kosong |
+| **Visibility** | **Public** = semua orang bisa *melihat*. **Private** = hanya kamu dan orang yang kamu undang. (Yang bisa *mengubah* tetap hanya kamu dan kolaborator.) | Public |
+| **Add README** | Langsung membuat file `README.md` beserta commit pertama | Off |
+| **Add .gitignore** | Daftar file yang tidak perlu disimpan Git (dibahas di Pelajaran 06) | No .gitignore |
+| **Add license** | Aturan boleh/tidaknya orang lain memakai code kamu (misalnya MIT) | No license |
+
+Karena **Add README = Off**, repo ini awalnya **benar-benar kosong**: tidak ada
+file dan tidak ada commit. Commit pertama baru dibuat bersama pelajaran ini.
+Kalau README dinyalakan, GitHub langsung membuat commit pertama bernama
+*"Initial commit"* yang berisi `README.md`.
+
+💡 Semua pilihan ini bisa ditambahkan nanti. README, `.gitignore`, dan license
+hanyalah file biasa, dan Visibility bisa diubah di **Settings** repo.
+
 ## 3. Apa itu Commit?
 
 Commit = **satu "save point"** yang berisi:
