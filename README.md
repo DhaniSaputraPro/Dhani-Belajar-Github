@@ -22,3 +22,4 @@ Setiap pelajaran punya folder sendiri berisi penjelasan dan contoh code sederhan
 
 - [01 - Repository, Commit & README](01-repository-dan-commit/PELAJARAN.md)
 - [02 - Branch](02-branch/PELAJARAN.md)
+- Saya sedang belajar commit.
