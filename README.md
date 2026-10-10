@@ -8,7 +8,7 @@ Setiap pelajaran punya folder sendiri berisi penjelasan dan contoh code sederhan
 | No | Topik | Isi Singkat | Status |
 |----|-------|-------------|--------|
 | 01 | Repository, Commit & README | Dasar: apa itu repo, commit, dan Markdown | ✅ |
-| 02 | Branch | Membuat "cabang" untuk mencoba hal baru tanpa merusak yang utama | ⏳ |
+| 02 | Branch | Membuat "cabang" untuk mencoba hal baru tanpa merusak yang utama | ✅ |
 | 03 | Pull Request (PR) | Mengusulkan perubahan dari branch ke `main` | ⏳ |
 | 04 | Issues | Mencatat bug, ide, dan tugas | ⏳ |
 | 05 | Merge Conflict | Apa yang terjadi kalau dua perubahan bertabrakan | ⏳ |
@@ -21,3 +21,4 @@ Setiap pelajaran punya folder sendiri berisi penjelasan dan contoh code sederhan
 ## 📂 Daftar Pelajaran
 
 - [01 - Repository, Commit & README](01-repository-dan-commit/PELAJARAN.md)
+- [02 - Branch](02-branch/PELAJARAN.md)
