@@ -10,7 +10,7 @@
 | Kopi Susu | Rp 8.000 |
 | Kopi Susu Gula Aren | Rp 12.000 |
 | Kopi Tubruk | Rp 6.000 |
-| Kopi Jahe | Rp 8.000 |
+| Kopi Susu Jahe | Rp 10.000 |
 | Es Kopi Susu | Rp 10.000 |
 
 ## Non-Kopi
