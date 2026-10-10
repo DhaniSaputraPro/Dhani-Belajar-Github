@@ -50,7 +50,22 @@ Commit = **satu "save point"** yang berisi:
 - kapan,
 - dan **pesan** yang menjelaskan perubahannya.
 
-Alur kerja dasar ada 3 langkah:
+Perumpamaan: seperti **mengirim paket** 📦
+
+| Langkah | Perintah | Perumpamaan |
+|---|---|---|
+| 1 | *(edit file)* | Menyiapkan barang |
+| 2 | `git add` | Memasukkan barang ke kardus |
+| 3 | `git commit -m "..."` | Menutup kardus dan menempel label isinya |
+| 4 | `git push` | Menyerahkan kardus ke kurir, lalu dikirim ke GitHub |
+
+> 🌐 **Kalau pakai website GitHub:** cukup edit file (ikon ✏️), isi pesan, lalu
+> klik tombol hijau **Commit changes**. Langkah 2, 3, dan 4 terjadi sekaligus.
+> Perintah di bawah ini hanya diperlukan kalau kamu bekerja di terminal
+> komputer sendiri.
+
+Alur kerja dasar di terminal ada 4 langkah (baris berawalan `#` hanya catatan,
+tidak ikut dijalankan):
 
 ```bash
 # 1. Ubah / buat file (misalnya edit halo.py)
