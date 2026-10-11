@@ -1,4 +1,4 @@
-# 📚 Dhani Belajar GitHub
+# 📚 Dhani Saputra Belajar GitHub
 
 Repo ini adalah tempat saya belajar fitur-fitur GitHub, langkah demi langkah.
 Setiap pelajaran punya folder sendiri berisi penjelasan dan contoh code sederhana.
