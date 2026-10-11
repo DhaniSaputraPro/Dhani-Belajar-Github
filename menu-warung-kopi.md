@@ -31,6 +31,13 @@
 | Indomie Goreng/Rebus + Telur | Rp 12.000 |
 | Tahu Isi (3 pcs) | Rp 6.000 |
 
+## Paket Hemat
+
+| Paket | Harga |
+|-------|------:|
+| Kopi Hitam + Pisang Goreng | Rp 11.000 |
+| Kopi Susu + Roti Bakar | Rp 18.000 |
+
 ---
 
 📍 *Harga sudah termasuk pajak. Selamat menikmati!*
