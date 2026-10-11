@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warung Kopi Dhani</title>
+  <style>
+    :root {
+      --kopi: #4b2e1e;
+      --krem: #f7efe3;
+      --kartu: #fffaf3;
+      --aksen: #c8792b;
+      --teks: #2b1d14;
+      --redup: #7a6556;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--krem);
+      color: var(--teks);
+      line-height: 1.5;
+    }
+    header {
+      background: var(--kopi);
+      color: var(--krem);
+      text-align: center;
+      padding: 48px 16px 40px;
+    }
+    header h1 { margin: 0; font-size: 2.2rem; }
+    header p { margin: 8px 0 0; opacity: 0.85; }
+    main {
+      max-width: 720px;
+      margin: -24px auto 0;
+      padding: 0 16px 48px;
+    }
+    section {
+      background: var(--kartu);
+      border-radius: 14px;
+      padding: 20px 24px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 10px rgba(75, 46, 30, 0.08);
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.25rem;
+      color: var(--kopi);
+      border-bottom: 2px solid var(--aksen);
+      padding-bottom: 6px;
+    }
+    ul { list-style: none; margin: 0; padding: 0; }
+    li {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 8px 0;
+      border-bottom: 1px dashed #e4d6c4;
+    }
+    li:last-child { border-bottom: none; }
+    .harga { font-weight: 600; color: var(--aksen); white-space: nowrap; }
+    .hemat { background: #fff1de; border: 2px solid var(--aksen); }
+    .label {
+      display: inline-block;
+      font-size: 0.75rem;
+      background: var(--aksen);
+      color: #fff;
+      border-radius: 999px;
+      padding: 1px 8px;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+    footer { text-align: center; color: var(--redup); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>☕ Warung Kopi Dhani</h1>
+    <p>Buka setiap hari, pukul 07.00 – 22.00</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Kopi</h2>
+      <ul>
+        <li><span>Kopi Hitam</span><span class="harga">Rp 5.000</span></li>
+        <li><span>Kopi Susu</span><span class="harga">Rp 8.000</span></li>
+        <li><span>Kopi Susu Gula Aren</span><span class="harga">Rp 12.000</span></li>
+        <li><span>Kopi Tubruk</span><span class="harga">Rp 6.000</span></li>
+        <li><span>Kopi Susu Jahe Pedas <span class="label">Baru</span></span><span class="harga">Rp 10.000</span></li>
+        <li><span>Es Kopi Susu</span><span class="harga">Rp 10.000</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Non-Kopi</h2>
+      <ul>
+        <li><span>Teh Manis (panas/es)</span><span class="harga">Rp 4.000</span></li>
+        <li><span>Teh Tarik</span><span class="harga">Rp 8.000</span></li>
+        <li><span>Susu Jahe</span><span class="harga">Rp 8.000</span></li>
+        <li><span>Cokelat (panas/es)</span><span class="harga">Rp 10.000</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Makanan Ringan</h2>
+      <ul>
+        <li><span>Pisang Goreng (3 pcs)</span><span class="harga">Rp 8.000</span></li>
+        <li><span>Roti Bakar Cokelat Keju</span><span class="harga">Rp 12.000</span></li>
+        <li><span>Indomie Goreng/Rebus + Telur</span><span class="harga">Rp 12.000</span></li>
+        <li><span>Tahu Isi (3 pcs)</span><span class="harga">Rp 6.000</span></li>
+      </ul>
+    </section>
+
+    <section class="hemat">
+      <h2>Paket Hemat</h2>
+      <ul>
+        <li><span>Kopi Hitam + Pisang Goreng</span><span class="harga">Rp 11.000</span></li>
+        <li><span>Kopi Susu + Roti Bakar</span><span class="harga">Rp 18.000</span></li>
+      </ul>
+    </section>
+
+    <footer>📍 Harga sudah termasuk pajak. Selamat menikmati!</footer>
+  </main>
+</body>
+</html>
