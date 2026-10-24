@@ -1,7 +1,7 @@
 # Program sederhana untuk latihan commit pertama.
 # Coba ubah nama di bawah, lalu commit perubahannya!
 
-nama = "Dhani"
+nama = "Dhani Manis"
 
 
 def sapa(orang):
